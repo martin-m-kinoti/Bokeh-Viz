@@ -35,7 +35,7 @@ data_views = {
     "Raw": df.reset_index(),
     "Hourly": df.resample("H").sum().reset_index(),
     "Daily": df.resample("D").sum().reset_index(),
-    "Monthly": df.resample("ME").sum().reset_index(),
+    "Monthly": df.resample("M").sum().reset_index(),
 }
 
 # Create data source
