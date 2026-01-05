@@ -1,4 +1,5 @@
 bokeh==3.3.2
 pandas==2.1.0
+numpy==1.26.4
 tornado==6.3.2
 python-dateutil==2.8.2
